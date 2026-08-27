@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "ado-flyway-extension-by-ayq",
     "name": "ADO FLYWAY Extension by AYQ",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "publisher": "JinThakur",
     "targets": [{
         "id": "Microsoft.VisualStudio.Services"
