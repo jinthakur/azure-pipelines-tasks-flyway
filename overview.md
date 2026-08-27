@@ -57,8 +57,6 @@ This installer should be used before a CLI tasks.
 
 ## FlywayCLI configuration form
 
-![FlywayCLI configuration form](https://raw.githubusercontent.com/jinthakur/azure-pipelines-tasks-flyway/master/screenshots/flyway-cli-taks-form.png)
-
 - Command: first select the command you want to use, be sure to read Flyway official documentation first. See [Supported Commands](#supported-commands) above for the full list and licensing tier of each.
 - SQL scripts directory: directory to scan recursively for migrations scripts
 - JDBC URL: the jdbc url to datatabse. Must respect standard format. These formats can be found on Flyway documentation. [Ex for SQL Server](https://flywaydb.org/documentation/database/sqlserver). Not needed for commands that don't connect to a database (init, add, auth, list-engines).
