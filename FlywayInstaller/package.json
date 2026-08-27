@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc --build",
     "pack": "./node_modules/.bin/copyfiles package.json task.json icon.png \".bin/*.js\" -e \".bin/tests/*\" .dist && cd .dist && npm install --only=prod",
-    "delete": "./node_modules/.bin/tfx build tasks delete --task-id a1573c5e-4c23-4109-b179-56a88afc19cc",
+    "delete": "./node_modules/.bin/tfx build tasks delete --task-id 5fb83f8d-9910-4d0a-9556-0ba80eed95bb",
     "upload": "./node_modules/.bin/tfx build tasks upload --task-path .dist",
     "start": "node --require dotenv/config .bin/index.js",
     "test": "nyc -r cobertura -r html ./node_modules/.bin/mocha \".bin/tests/**/*_spec.js\" --reporter mocha-junit-reporter --reporter-options mochaFile=./.test-output/flyway-installer.xml",
