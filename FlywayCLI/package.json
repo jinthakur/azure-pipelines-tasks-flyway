@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc --build",
     "pack": "./node_modules/.bin/copyfiles package.json task.json icon.png \".bin/*.js\" -e \".bin/tests/*\" .dist && cd .dist && npm install --only=prod",
-    "delete": "./node_modules/.bin/tfx build tasks delete --task-id 4b8844c8-9233-41d1-8f8a-564e7e0ea8fd",
+    "delete": "./node_modules/.bin/tfx build tasks delete --task-id 8db25495-30f6-4501-8d70-60ec3f92376a",
     "upload": "./node_modules/.bin/tfx build tasks upload --task-path .dist",
     "start": "node --require dotenv/config .bin/index.js",
     "test": "./node_modules/.bin/nyc -r cobertura -r html \"./node_modules/.bin/mocha\" \".bin/tests/**/*_spec.js\" --timeout 999999 --reporter mocha-junit-reporter --reporter-options \"mochaFile=./.test-output/terraform-cli.xml\"",
