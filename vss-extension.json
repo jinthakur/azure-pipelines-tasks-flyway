@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "azure-pipelines-tasks-flyway",
-    "name": "Flyway Build & Release Tasks",
-    "version": "0.2.0",
+    "id": "ado-flyway-extension-by-ayq",
+    "name": "ADO FLYWAY Extension by AYQ",
+    "version": "0.2.1",
     "publisher": "JinThakur",
     "targets": [{
         "id": "Microsoft.VisualStudio.Services"

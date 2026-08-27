@@ -1,6 +1,6 @@
 {
   "name": "azure-pipelines-tasks-flyway",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "This contains the Azure DevOps Pipeline tasks for installing and executing flyway commands within a build or release. These tasks are intended to work on any build agent. They are also intended to provide a database migration tool.",
   "main": "index.js",
   "dependencies": {},
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "pack": "cross-var ./node_modules/.bin/tfx extension create --manifests vss-extension.json --output-path .bin --override { \\\"version\\\" : \\\"$npm_package_version\\\" }",
-    "publish": "cross-var ./node_modules/.bin/tfx extension publish --vsix .bin/JinThakur.azure-pipelines-tasks-flyway-$npm_package_version.vsix"
+    "publish": "cross-var ./node_modules/.bin/tfx extension publish --vsix .bin/JinThakur.ado-flyway-extension-by-ayq-$npm_package_version.vsix"
   },
   "repository": {
     "type": "git",

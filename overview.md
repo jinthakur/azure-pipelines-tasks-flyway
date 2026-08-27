@@ -1,4 +1,4 @@
-# Flyway Tasks for Azure DevOps
+# ADO FLYWAY Extension by AYQ
 
 The tasks in this extension allow for running flyway cli commands from both the Build and Release pipelines in Azure DevOps.
 An installer is also provided. 
