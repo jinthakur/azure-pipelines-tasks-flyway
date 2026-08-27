@@ -74,3 +74,6 @@ typings/
 
 #packaged output
 .dist/
+
+# TypeScript incremental build info
+*.tsbuildinfo

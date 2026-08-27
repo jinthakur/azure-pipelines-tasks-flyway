@@ -30,7 +30,11 @@
     }
   ],
   "execution": {
-    "Node": {
+    "Node20_1": {
+      "target": ".bin/index.js",
+      "argumentFormat": ""
+    },
+    "Node10": {
       "target": ".bin/index.js",
       "argumentFormat": ""
     }
