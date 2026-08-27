@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+  "id": "a1573c5e-4c23-4109-b179-56a88afc19cc",
+  "name": "FlywayInstaller",
+  "friendlyName": "Flyway Installer",
+  "description": "Installs a specific version of flyway",
+  "author": "JinThakur",
+  "helpMarkDown": "",
+  "category": "Utility",
+  "visibility": [
+    "Build",
+    "Release"
+  ],
+  "demands": [],
+  "version": {
+    "Major": "0",
+    "Minor": "1",
+    "Patch": "0"
+  },
+  "minimumAgentVersion": "1.95.0",
+  "instanceNameFormat": "Use Flyway $(flywayVersion)",
+  "inputs": [
+    {
+      "name": "flywayVersion",
+      "type": "string",
+      "label": "Version",
+      "defaultValue": "13.3.0",
+      "required": true,
+      "helpMarkDown": "Specify the version of flyway that should be installed"
+    }
+  ],
+  "execution": {
+    "Node": {
+      "target": ".bin/index.js",
+      "argumentFormat": ""
+    }
+  }
+}
